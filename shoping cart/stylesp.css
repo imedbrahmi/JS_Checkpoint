@@ -1,0 +1,80 @@
+.allpage{
+
+    width: 60%;
+    height: 1900px;
+    margin: auto;
+    border: solid 3px gray;
+    background-color: bisque;
+    text-shadow: gainsboro 5px;
+   
+ 
+}
+
+.allpage h1{
+    text-align: center;
+    color: indianred;
+}
+.menu{
+   
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+   justify-content:space-around;
+    padding: 10px;
+    margin: auto;
+    
+
+    
+}
+
+
+
+.items button:hover{
+    color: indianred;
+    cursor: pointer;
+    
+    font-size: large;
+}
+
+
+.items button{
+    width: 20px;
+    text-align: center;
+    
+    margin-top:10px ;
+}
+
+ .count{
+    width: 30px;
+    text-align: center;
+}
+
+.pinkbtn{
+    width: 20%; 
+   
+}
+
+.footer{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+.gauche{
+    width: 45%;
+    border: solid 2px gray;
+    padding: 20px;
+    margin-right: 10px;
+  
+}
+
+.droite{
+    width: 45%;
+    height: 550px;
+    border: solid 2px gray;
+}
+
+.droite form{
+    padding: 20px;
+}
